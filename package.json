@@ -6,7 +6,10 @@
     "registry": "http://npm:4873"
   },
   "main": "index.js",
-  "author": "Applied Minds",
+  "author": "Ivo Janssen <ijanssen@appliedminds.com>",
+  "contributors": [
+    "Matt McCartney <mmccartney@appliedminds.com>"
+  ],
   "license": "UNLICENSED",
   "devDependencies": {
     "eslint": "^7.2.0"
