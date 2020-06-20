@@ -1,0 +1,20 @@
+{
+  "name": "@ami/eslint-config",
+  "version": "1.0.0",
+  "description": "Recommended Applied Minds ESLint Config",
+  "publishConfig": {
+    "registry": "http://npm:4873"
+  },
+  "private": true,
+  "main": "index.js",
+  "author": "Applied Minds",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "eslint": "^7.2.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://am-gitlab.amthinking.net/software-engineering-tools/js/ami-eslint-config"
+  }
+}
