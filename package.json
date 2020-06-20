@@ -5,7 +5,6 @@
   "publishConfig": {
     "registry": "http://npm:4873"
   },
-  "private": true,
   "main": "index.js",
   "author": "Applied Minds",
   "license": "UNLICENSED",
