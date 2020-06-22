@@ -37,7 +37,7 @@ module.exports = {
       "no-extra-parens": "error",
       "no-floating-decimal": "error",
       "no-lonely-if": "warn",
-      "no-magic-numbers": ["warn", { "ignore": [1], "ignoreArrayIndexes": true }],
+      "no-magic-numbers": ["warn", { "ignore": [1, 2], "ignoreArrayIndexes": true }],
       "no-multi-spaces": "error",
       "no-multiple-empty-lines": ["warn", { "max": 1 }],
       "no-nested-ternary": "error",
