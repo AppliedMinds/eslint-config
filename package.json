@@ -1,6 +1,6 @@
 {
   "name": "@ami/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Recommended Applied Minds ESLint Config",
   "publishConfig": {
     "registry": "http://npm:4873"
