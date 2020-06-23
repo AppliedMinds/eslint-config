@@ -19,7 +19,7 @@ module.exports = {
       "camelcase": "warn",
       "class-methods-use-this": "warn",
       "comma-spacing": "warn",
-      "curly": ["warn", "multi"],
+      "curly": ["warn", "multi-line"],
       "dot-notation": "error",
       "eqeqeq": ["warn", "always"],
       "func-call-spacing": ["warn", "never"],
