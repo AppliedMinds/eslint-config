@@ -15,6 +15,7 @@ module.exports = {
       "arrow-body-style": ["warn", "as-needed"],
       "arrow-parens": ["warn", "as-needed"],
       "arrow-spacing": "warn",
+      "brace-style": ["warn", "stroustrup"],
       "block-spacing": "warn",
       "camelcase": "warn",
       "class-methods-use-this": "warn",
