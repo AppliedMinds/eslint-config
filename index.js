@@ -65,6 +65,7 @@ module.exports = {
       "require-await": "warn",
       "rest-spread-spacing": "error",
       "semi": ["error", "never"],
+      "space-infix-ops": "warn",
       "spaced-comment": ["warn", "always"],
       "strict": ["error", "never"],
       "template-curly-spacing": "warn",
