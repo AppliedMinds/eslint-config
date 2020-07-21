@@ -67,7 +67,7 @@ module.exports = {
       "rest-spread-spacing": "error",
       "semi": ["error", "never"],
       "space-infix-ops": "warn",
-      "spaced-comment": ["warn", "always"],
+      "spaced-comment": ["warn", "always", { "markers": ["!"] }],
       "strict": ["error", "never"],
       "template-curly-spacing": "warn",
       "yield-star-spacing": "warn",
