@@ -7,7 +7,7 @@ Installation
 ------------
 
 ```shell
-npm install @ami/eslint-config
+npm install @ami/eslint-config --save-dev
 ```
 
 Usage
@@ -27,16 +27,24 @@ Add the following to your `package.json`:
 
 ### Vue Projects
 
-Add the following to your `package.json`:
+Also install [`eslint-plugin-vue`](https://github.com/vuejs/eslint-plugin-vue):
+
+```shell
+npm install eslint-plugin-vue --save-dev`
+```
+
+Then add the following to your `package.json`:
 
 ```json
 {
   "eslintConfig": {
     "env": { "browser": true },
-    "extends": ["@ami", "plugin:vue/essential"]
+    "extends": ["@ami", "plugin:vue/vue3-strongly-recommended"]
   }
 }
 ```
+
+Use `plugin:vue/strongly-recommended` if developing with Vue.js 2.x.
 
 License
 -------
