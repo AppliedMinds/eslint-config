@@ -30,7 +30,7 @@ Add the following to your `package.json`:
 Also install [`eslint-plugin-vue`](https://github.com/vuejs/eslint-plugin-vue):
 
 ```shell
-npm install eslint-plugin-vue --save-dev`
+npm install eslint-plugin-vue --save-dev
 ```
 
 Then add the following to your `package.json`:
@@ -44,7 +44,7 @@ Then add the following to your `package.json`:
 }
 ```
 
-Use `plugin:vue/strongly-recommended` if developing with Vue.js 2.x.
+Note: Use `plugin:vue/strongly-recommended` if developing with Vue.js 2.x.
 
 License
 -------
