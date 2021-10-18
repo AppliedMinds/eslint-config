@@ -1,22 +1,19 @@
 {
   "name": "@ami/eslint-config",
   "version": "1.0.7",
-  "description": "Recommended Applied Minds ESLint Config",
-  "publishConfig": {
-    "registry": "http://npm:4873"
-  },
+  "description": "Applied Minds' ESLint Config",
   "main": "index.js",
-  "author": "Ivo Janssen <ijanssen@appliedminds.com>",
+  "author": "Ivo Janssen <ivo@appliedminds.com>",
   "contributors": [
     "Matt McCartney <mmccartney@appliedminds.com>"
   ],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^7.2.0"
   },
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://am-gitlab.amthinking.net/software-engineering-tools/js/ami-eslint-config"
+    "url": "https://github.com/AppliedMinds/eslint-config"
   }
 }
