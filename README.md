@@ -1,18 +1,10 @@
-AMI ESLint Config
-=================
+Applied Minds ESLint Config
+===========================
 
-Recommended linting configuration for AMI Node/Javascript projects.
+Linting configuration used by [Applied Minds](https://www.appliedminds.com/) for all Node.js/Javascript projects.
 
 Installation
 ------------
-
-Ensure the local AMI registry is being used:
-
-```shell
-npm set -g @ami:registry http://npm:4873
-```
-
-Then simply install:
 
 ```shell
 npm install @ami/eslint-config
@@ -45,3 +37,8 @@ Add the following to your `package.json`:
   }
 }
 ```
+
+License
+-------
+
+MIT
