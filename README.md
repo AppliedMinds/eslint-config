@@ -7,7 +7,7 @@ Installation
 ------------
 
 ```shell
-npm install @ami/eslint-config --save-dev
+npm install @appliedminds/eslint-config --save-dev
 ```
 
 Usage
@@ -20,7 +20,7 @@ Add the following to your `package.json`:
 ```json
 {
   "eslintConfig": {
-    "extends": "@ami"
+    "extends": "@appliedminds"
   }
 }
 ```
@@ -39,7 +39,7 @@ Then add the following to your `package.json`:
 {
   "eslintConfig": {
     "env": { "browser": true },
-    "extends": ["@ami", "plugin:vue/vue3-strongly-recommended"]
+    "extends": ["@appliedminds", "plugin:vue/vue3-strongly-recommended"]
   }
 }
 ```
