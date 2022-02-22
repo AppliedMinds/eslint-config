@@ -7,11 +7,13 @@
   "contributors": [
     "Matt McCartney <mmccartney@appliedminds.com>"
   ],
+  "files": [
+    "vue.js"
+  ],
   "license": "MIT",
   "devDependencies": {
     "eslint": "^8.9.0"
   },
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/appliedminds/eslint-config"
@@ -28,5 +30,8 @@
     "appliedminds",
     "javascript",
     "styleguide"
-  ]
+  ],
+  "peerDependencies": {
+    "eslint-plugin-vue": "^8.5.0"
+  }
 }
