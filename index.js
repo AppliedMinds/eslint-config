@@ -77,6 +77,6 @@ module.exports = {
       "yoda": "warn"
     },
     "globals": {
-      "PRODUCTION": true
+      "PRODUCTION": "readonly"
     }
 }
