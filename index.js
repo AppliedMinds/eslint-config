@@ -69,6 +69,7 @@ module.exports = {
       "space-before-blocks": ["warn", "always"],
       "space-in-parens": ["warn", "never"],
       "space-infix-ops": "warn",
+      "space-unary-ops": "warn",
       "spaced-comment": ["warn", "always", { "markers": ["!"] }],
       "strict": ["error", "never"],
       "template-curly-spacing": "warn",
