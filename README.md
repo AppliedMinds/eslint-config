@@ -44,7 +44,10 @@ Then add the following to your `package.json`:
 ```json
 {
   "eslintConfig": {
-    "extends": ["@appliedminds", "@appliedminds/eslint-config/vue"]
+    "extends": [
+      "@appliedminds/eslint-config/vue",
+      "@appliedminds"
+    ]
   }
 }
 ```
