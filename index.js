@@ -77,8 +77,5 @@ module.exports = {
       "template-curly-spacing": "warn",
       "yield-star-spacing": "warn",
       "yoda": "warn"
-    },
-    "globals": {
-      "PRODUCTION": "readonly"
     }
 }
