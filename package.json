@@ -1,6 +1,6 @@
 {
   "name": "@appliedminds/eslint-config",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Applied Minds' ESLint Config",
   "main": "index.js",
   "author": "Ivo Janssen <ivo@appliedminds.com>",
