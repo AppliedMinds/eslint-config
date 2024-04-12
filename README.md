@@ -17,14 +17,19 @@ Usage
 
 ### Node Projects
 
-Add the following to your `package.json`:
+Add the following to your `eslint.config.js`:
 
-```json
-{
-  "eslintConfig": {
-    "extends": "@appliedminds"
-  }
-}
+```js
+import jsConfig from '@appliedminds/eslint-config'
+
+export default [
+    ...jsConfig,
+    {
+        rules: {
+            // your overrides, etc
+        }
+    }
+]
 ```
 
 The Applied Minds linting configuration generally follows the [Standard Javascript](https://standardjs.com/) style with main exception:
@@ -39,20 +44,20 @@ Also install [`eslint-plugin-vue`](https://github.com/vuejs/eslint-plugin-vue):
 npm install eslint-plugin-vue --save-dev
 ```
 
-Then add the following to your `package.json`:
+Then add the following to your `eslint.config.js`:
 
-```json
-{
-  "eslintConfig": {
-    "extends": [
-      "@appliedminds/eslint-config/vue",
-      "@appliedminds"
-    ]
-  }
-}
+```js
+import jsConfig from '@appliedminds/eslint-config'
+import vueConfig from '@appliedminds/eslint-config/vue.js'
+
+export default [
+    ...jsConfig,
+    ...vueConfig,
+    // overrides, etc
+]
 ```
 
-The Applied Minds Vue linting configuration follows the [_Vue3 Strongly Recommended_ config](https://eslint.vuejs.org/user-guide/#bundle-configurations) style, but modifies the following:
+The Applied Minds Vue linting configuration follows the [_Vue Strongly Recommended_ config](https://eslint.vuejs.org/user-guide/#bundle-configurations-eslint-config-js) style, but modifies the following:
 
  * Readability: Use 4-space indents
  * Readability: Allow up to 3 attributes per line to more effectively use horizontal space and prevent excessive line breaks
