@@ -1,3 +1,4 @@
+import globals from 'globals'
 import js from '@eslint/js'
 
 export default [
@@ -5,6 +6,7 @@ export default [
     {
         languageOptions: {
             ecmaVersion: "latest",
+            globals: globals.node,
             sourceType: "module"
         },
         rules: {
