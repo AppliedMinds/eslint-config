@@ -61,6 +61,9 @@ The Applied Minds Vue linting configuration follows the [_Vue Strongly Recommend
 
  * Readability: Use 4-space indents
  * Readability: Allow up to 3 attributes per line to more effectively use horizontal space and prevent excessive line breaks
+ * Organization: Disallow static inline styles - move to stylesheet instead
+ * Clarity: Disallow unused template refs and undefined properties
+ * Unnecessary: Remove prop mutation prohibition if the reference remains consistent. This can be useful under certain circumstances.
  * Unnecessary: Remove multi-word component name enforcement. Well-named single-word components should be allowed.
 
 License
